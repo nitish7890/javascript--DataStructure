@@ -1,0 +1,30 @@
+/* Declare array */
+<script>  
+var i;  
+var emp = new Array();  
+emp[0] = "Arun";  
+emp[1] = "Varun";  
+emp[2] = "John";  
+  
+for (i=0;i<emp.length;i++){  
+document.write(emp[i] + "<br>");  
+}  
+</script>
+/*sort the array list*/
+let numbers = [0, 1 , 2, 3, 10, 20, 30 ];
+numbers.sort();
+console.log(numbers);
+/*number sort in ascending */
+let scores = [
+    9, 80, 10, 20, 5, 70
+];
+/* sort numbers in ascending order */
+scores.sort((a, b) => a - b);
+console.log(scores);
+/*number sort in descending*/
+let scores = [
+    9, 80, 10, 20, 5, 70
+];
+// descending order
+scores.sort((a, b) => b - a);
+console.log(scores);
